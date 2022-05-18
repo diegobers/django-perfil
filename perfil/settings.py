@@ -55,13 +55,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'perfil.wsgi.application'
 
 # Database
+#postgres://mmfbayfblbivkm:fe6db2f2e5ff4a1a150271a6a99868e7c9fbbe76b23e6d511d4a0203bfe97f4c@ec2-34-201-95-176.compute-1.amazonaws.com:5432/daobt5qov688ja
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'perfil',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'NAME': 'daobt5qov688ja',
+        'USER': 'mmfbayfblbivkm',
+        'PASSWORD': 'fe6db2f2e5ff4a1a150271a6a99868e7c9fbbe76b23e6d511d4a0203bfe97f4c',
+        'HOST': 'ec2-34-201-95-176.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
