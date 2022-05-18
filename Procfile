@@ -1,1 +1,1 @@
-web:gunicorn django-perfil.wsgi
+web: gunicorn perfil.wsgi
